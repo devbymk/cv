@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
+
+
+:root {
+    --navbar: #1b1d25;
+    --font-color: #495057;
+    --heading-color: #343a40;
+    --header-bg: #f1f4f8;
+    --navbar-font: #aeafb1;
+}
+
+* {
+    font-family: 'DM Mono', monospace;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: var(--header-bg);
+    height: 100vh;
+}
+
+.logo {
+    color: #fdba3a;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-right: 40%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--navbar);
+    padding: 20px;
+}
+.nav a {
+    background-color: var(--heading-color);
+    margin-left: 30px;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--navbar-font);
+    font-size: 1.2rem;
+}
+.nav a:hover {
+    border-bottom: 1px solid var(--fourth);
+    
+    color: black;
+    background-color: #fdba3a;
+}
+
+.title_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 24vh;
+}
+.title_container h1 {
+    font-size: 3rem;
+    color: var(--heading-color);
+    border-bottom: 3px solid rgb(92, 156, 251);
+    padding-bottom: 3vh;
+}
+.title_container p {
+    color: var(--font-color);
+    margin-top: 32px;
+}
+.title_container img {
+    width: 400px;
+}
+.title {
+    width: 400px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--heading-color);
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 1.8rem;
+    border-bottom: 2px solid rgb(92, 156, 251);
+    display: block;
+    width: 200px;
+}
+
+.job_containter {
+    display: flex;
+    margin-bottom: 30px;
+    
+    
+    justify-content: space-around;
+    align-items: center;
+    border-left: 4px solid var(--primary);
+    
+}
+
+
+.company {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+}
+.company p {
+    margin-bottom: 10px;
+    color: var(--font-color);  
+}
+.period {
+    color: rgb(105, 105, 105);
+}
+
+.company_name_container {
+    display: flex;
+}
+
+.company_name {
+    color: var(--heading-color);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+.description {
+    width: 40%;
+    color: var(--font-color);
+    padding: 0px;   
+}
+.position {
+    color: var(--heading-color);
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.job_description {
+    text-indent: 20px;
+}
+
+.skills {
+    color: var(--font-color);  
+    width: 90%;
+}
+.skills p {
+    text-indent: 20px;
+}
+
+.contacts-container {
+    
+    
+    width: 40%;
+    margin-bottom: 20px;
+    
+    
+    color: var(--font-color);  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contacts {
+    display: flex;
+    margin-top: 16px;
+}
+.icon {
+    height: 24px;
+    width: 24px;
+    margin-right: 24px;
+}
