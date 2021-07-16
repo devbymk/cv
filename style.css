@@ -47,12 +47,14 @@
     text-decoration: none;
     color: var(--navbar-font);
     font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
 }
 .links:hover {
     border-bottom: 1px solid var(--fourth);
-    
     color: black;
     background-color: #fdba3a;
+    box-shadow: 3px 3px 1px var(--font-color);
+    transform: scale(1.1);
 }
 
 .title_container {
